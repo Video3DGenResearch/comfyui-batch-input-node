@@ -3,6 +3,7 @@
 ## Feature
 
 - [x] Batch Input Text Node.
+- [x] Batch Input CSV Node.
 - [ ] Batch Input Image Node.
 
 ## Getting Started
