@@ -1,7 +1,4 @@
 class BatchInputText:
-    def __init__(self):
-        pass
-
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -38,9 +35,6 @@ class BatchInputText:
 
 
 class BatchInputCSV:
-    def __init__(self):
-        pass
-
     @classmethod
     def INPUT_TYPES(cls):
         return {
@@ -75,13 +69,3 @@ class BatchInputCSV:
             text3_list.append(text3)
         return text1_list, text2_list, text3_list
 
-
-NODE_CLASS_MAPPINGS = {
-    "BatchInputText": BatchInputText,
-    "BatchInputCSV": BatchInputCSV,
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "BatchInputText": "📝Batch input text",
-    "BatchInputCSV": "📝Batch input CSV",
-}
